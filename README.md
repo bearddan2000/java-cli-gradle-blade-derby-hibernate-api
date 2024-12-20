@@ -1,4 +1,4 @@
-# java-cli-gradle-blade-postgres-hibernate-ssl-api
+# java-cli-gradle-blade-derby-hibernate-api
 
 ## Description
 Creates a small database table
@@ -11,13 +11,10 @@ hql.
   - hibernate
   - hql
   - blade
-  - postgres driver
+  - derby driver
 
 ## Docker stack
-- alpine:edge
 - gradle:7.6.4-jdk11-alpine
-- postgres:alpine
-- traefik
 
 ## To run
 `sudo ./install.sh -u`
